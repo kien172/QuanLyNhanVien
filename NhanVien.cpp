@@ -150,6 +150,7 @@ float TruongPhong::TinhLuong()
 		Luong -= 0.05f * LuongCoBan;
 	else if (this->NgayNghiKhongPhep > 1)
 		Luong -= 0.02f * LuongCoBan;
+	return Luong;
 }
 
 float PhoPhong::TinhLuong()
